@@ -18,15 +18,6 @@ De website behandelt de volgende hoofdonderwerpen:
 - Formaliteiten (in- en uitschrijven, BTW, telefonie)
 - Huisverhuur
 
-## Technische Details
-
-Dit is een eenvoudige statische website gebouwd met:
-- HTML
-- CSS
-- JavaScript
-
-De website kan direct worden gehost via GitHub Pages of een andere statische hosting service.
-
 ## Gebruik
 
 Bezoek de website op: https://vertrekkers.github.io/Info/ 
