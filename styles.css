@@ -88,24 +88,39 @@ main {
 
 .sidebar ul {
     list-style: none;
-    margin-top: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul ul {
+    margin-left: 20px;
+    border-left: 2px solid #e0e0e0;
+    padding-left: 10px;
 }
 
 .sidebar li {
-    margin-bottom: 0.5rem;
+    margin: 8px 0;
 }
 
 .sidebar a {
-    color: var(--text-color);
+    color: #333;
     text-decoration: none;
     display: block;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.sidebar ul ul a {
+    font-size: 0.9em;
+    color: #666;
 }
 
 .sidebar a:hover {
-    background-color: var(--background-color);
+    color: #007bff;
+}
+
+.sidebar ul ul a:hover {
+    color: #0056b3;
 }
 
 .content {
@@ -212,4 +227,36 @@ footer {
     #searchInput {
         width: 100%;
     }
+}
+
+.highlight {
+    background-color: #fff3cd;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+.search-navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.search-navigation button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-navigation button:hover {
+    background-color: #0056b3;
+}
+
+#resultCounter {
+    color: #666;
+    font-size: 0.9em;
 } 
