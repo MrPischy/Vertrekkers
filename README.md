@@ -1,23 +1,42 @@
-# Vertrekkers Info Website
+# Vertrekkers Info
 
-Deze website bevat informatie voor mensen die vanuit Nederland vertrekken om met hun boot de wereld rond te zeilen. De informatie is verzameld uit WhatsApp groepen van vertrekkers en behandelt onderwerpen zoals verzekeringen, bankzaken, formaliteiten en huisverhuur.
+Een informatieve website voor zeilers die vertrekken op een wereldreis. De informatie is samengesteld uit WhatsApp gesprekken van ervaren vertrekkers, waarbij meer dan 135.000 berichten tussen 250 mensen zijn geanalyseerd.
+
+## Structuur
+
+### Algemene onderwerpen
+- [Financieel](financieel.html) - Bankzaken, huisverhuur en telefonie
+- [Verzekeringen](verzekeringen.html) - Verzekeringen en formaliteiten
+- [Weer & Navigatie](weer.html) - Weer en navigatie informatie
+- [Visserij](visserij.html) - Tips en ervaringen met vissen op zee
+
+### Bestemmingen
+- [Algarve & Middellandse Zee](algarve-med.html)
+- [Canarische Eilanden](canarische-eilanden.html)
+- [Caribisch](caribisch.html)
+- [Jamaica, Cuba & Midden-Amerika](jamaica-cuba-midden-amerika.html)
+- [Oostkust](oostkust.html)
+- [Panama Kanaal](panama-kanaal.html)
+- [Stille Oceaan](stille-oceaan.html)
+- [Suriname](suriname.html)
+
+### Techniek
+- [Elektrische systemen](elektrische-systemen.html)
+- [Starlink](starlink.html)
+- [Verbrandingsmotoren](verbrandingsmotoren.html)
+- [Watermakers](watermakers.html)
+
+### Overig
+- [Duiken](duiken.html)
+- [Kombuispraat](kombuispraat.html)
 
 ## Disclaimer
 
-**Let op:** De inhoud van deze website is automatisch samengesteld door AI uit WhatsApp gesprekken. Hoewel we streven naar nauwkeurigheid:
-- Kunnen er fouten of onnauwkeurigheden in de informatie voorkomen
-- Kan informatie verouderd zijn
-- Moet alle informatie door gebruikers zelf geverifieerd worden bij de betreffende instanties
-- Zijn we niet aansprakelijk voor beslissingen genomen op basis van deze informatie
+Deze informatie is door AI samengesteld uit WhatsApp gesprekken van vertrekkers. Hoewel we streven naar accuraatheid, kunnen er fouten of verouderde informatie in voorkomen. Verifieer alle informatie altijd zelf bij de betreffende instanties voordat u er gebruik van maakt. Aan deze informatie kunnen geen rechten worden ontleend.
 
-## Inhoud
+## Technische details
 
-De website behandelt de volgende hoofdonderwerpen:
-- Verzekeringen (boot- en zorgverzekeringen)
-- Bankzaken (internationale betaalrekeningen)
-- Formaliteiten (in- en uitschrijven, BTW, telefonie)
-- Huisverhuur
-
-## Gebruik
-
-Bezoek de website op: https://vertrekkers.github.io/Info/ 
+- HTML5
+- CSS3
+- Responsive design
+- Geen JavaScript functionaliteit (behalve Web-Stat voor analytics) 
